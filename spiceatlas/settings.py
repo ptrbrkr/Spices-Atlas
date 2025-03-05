@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-csqannnxd6idpv%u*i#$6^q7h652p7*m2)(o@53sq6@7x@hn7o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['spices-atlas.onrender.com',]
+ALLOWED_HOSTS = ['spices-atlas.onrender.com', 'your-domain.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
