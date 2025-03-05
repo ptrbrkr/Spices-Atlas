@@ -1,0 +1,532 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Spices Atlas</title>
+  <link rel="icon" type="image/png" href="{% static 'images/logo.png' %}">
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+
+  <!-- Custom styles for this template -->
+  <link href=" {% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+          <div class="main_nav_menu">
+            <div class="fk_width">
+              <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+
+            </div>
+            <a class="navbar-brand" href="">
+              <span>
+                Spices Atlas
+              </span>
+            </a>
+            <div class="user_option">
+              <a href="">
+
+              </a>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="container-fluid">
+        <div class="row slider-row">
+          <div class="col-lg-3 offset-lg-1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="detail-box">
+                    <h1>
+                      Spices
+                    </h1>
+                    <p>
+                      Spices are more than just ingredients; they are the essence of flavor, history, and wellness. Each pinch, sprinkle, and dash transforms an ordinary dish into an extraordinary experience.                    </p>
+                    <div>
+                      🌿 Authentic & Pure – Sourced from the finest farms, our spices bring nature’s true essence to your kitchen. <br>
+                      <br>
+                      🔥 Bursting with Flavor – From the fiery heat of chili to the warm embrace of cinnamon, every spice tells a story. <br>
+                      <br>
+                      💪 Health & Wellness – Packed with antioxidants and nutrients, our spices don’t just enhance taste—they nourish your body. <br>
+                      <br>
+                      🌎 Globally Inspired – Discover exotic blends from around the world, perfect for every cuisine. <br>
+                      <br>
+                      ✨ Spice up your life, one flavor at a time!  <br>
+                      <br>
+                      🛒 Shop Now & Experience the Difference! <br>
+
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="carousel_control-box">
+                <div class="carousel_btn-container">
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 px-0">
+            <div class="img-box">
+              <img src="{% static 'images/allspices.jpg' %}" alt="" style="width: 1015px; height: 850px; border: 5px solid black; border-radius: 25px;" />
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Spices That Tell a Story
+              </h2>
+              <p>
+              From the sun-drenched fields of India to the aromatic spice markets of the Middle East, we bring you the purest, most vibrant flavors that turn everyday meals into unforgettable feasts.             </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <div class="">
+      </div>
+        <img src="{% static 'images/allspices2.jpg' %}" alt="" style="width: 900px; height: 750px; border: 5px solid black; border-radius: 25px; float: right; margin-right: -130px;" />
+    </div>
+  </section>
+
+  <!-- end about section -->
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+
+
+
+  <!-- gallery section -->
+  <section class="gallery_section layout_padding-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <div class="heading_container">
+            <h2>
+              Our Gallery
+            </h2>
+            <p>
+              A visual journey through the world of spices—rich colors, bold flavors, and endless inspiration            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery_container">
+      <div class="gallery_bg">
+        <img src="{% static 'images/gallery-bg.png' %}" alt="" />
+      </div>
+      <div class="container">
+        <div class="gallery_box">
+          <div class="box b1">
+            <div class="img-box">
+              <img src="{% static 'images/cardamom.jpg' %}" alt="" />
+              <h5>
+
+              </h5>
+            </div>
+          </div>
+          <div class="box b2">
+            <div class="img-box">
+              <img src="{% static 'images/blackpepper.jpg' %}" alt="" />
+              <h5>
+
+              </h5>
+            </div>
+            <div class="img-box">
+              <img src="{% static 'images/cinnamon.jpg' %}" alt="" />
+              <h5>
+
+              </h5>
+            </div>
+          </div>
+          <div class="box b3">
+            <div class="img-box">
+              <img src="{% static 'images/turmeric.jpg' %}" alt="" />
+              <h5>
+
+              </h5>
+            </div>
+            <div class="img-box">
+              <img src="{% static 'images/ginger.jpg' %}" alt="" />
+              <h5>
+
+              </h5>
+            </div>
+          </div>
+          <div class="box b4">
+            <div class="img-box">
+              <img src="{% static 'images/cinnamonstick.jpg' %}" alt="" />
+              <h5>
+
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end gallery section -->
+
+  <!-- blog section -->
+
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About our farm
+              </h2>
+              <p>
+                Nestled in the heart of nature, our farm is a sanctuary where tradition meets innovation. We take pride in cultivating the finest spices, using sustainable and eco-friendly farming practices to ensure purity and quality.              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog_container">
+      <div class="blog_bg">
+        <img src="{% static 'images/gallery-bg.png' %}" alt="" />
+      </div>
+      <div class="container">
+        <div class="blog_box">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box b1">
+                <div class="img-box">
+                  <img src="{% static 'images/cardamomplant.png' %}" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Cardamom
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post Date:
+                      </h6>
+                      <h6>
+                        05-03-2025
+                      </h6>
+                    </div>
+                  </div>
+                  <p>
+                    At the core of our spice journey lies our thriving cardamom farm, where every pod reflects the passion, care, and tradition we put into our cultivation. Our cardamom is carefully hand-harvested by skilled workers who know the delicate art of picking only the ripest, most fragrant pods. The rich, fertile soils and perfect weather conditions allow our plants to thrive, delivering cardamom pods that are naturally fragrant, full of flavor, and free from chemicals. From planting the seeds to hand-picking the pods, we take pride in every step, ensuring the finest quality for our global customers.                 </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box b2">
+                <div class="img-box">
+                  <img src="{% static 'images/pepperfarm.png' %}" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Black Pepper
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post Date:
+                      </h6>
+                      <h6>
+                        05-03-2025
+                      </h6>
+                    </div>
+                  </div>
+                  <p>
+                  Known as the “King of Spices,” black pepper has been a symbol of culinary mastery for centuries. We ensure that the soil remains rich with nutrients and the vines are nurtured with the right balance of water and sunlight. Every peppercorn is handpicked at the peak of its ripeness, ensuring a robust and aromatic flavor profile that will elevate any dish. From the moment the peppercorns are harvested, they undergo a meticulous drying process that preserves their natural essence, ensuring the sharp, aromatic bite that black pepper is known for. Our mission is to share the bold, distinctive flavors of our farm with the world.                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="blog_container">
+      <div class="blog_bg">
+        <img src="{% static 'images/gallery-bg.png' %}" alt="" />
+      </div>
+      <div class="container">
+        <div class="blog_box">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box b1">
+                <div class="img-box">
+                  <img src="{% static 'images/turmericfarm.png' %}" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Turmeric
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post Date:
+                      </h6>
+                      <h6>
+                        05-03-2025
+                      </h6>
+                    </div>
+                  </div>
+                  <p>
+                    The golden spice known for its rich color, powerful flavor, and health benefits. Grown in the warm embrace of nature, our turmeric is cultivated with utmost care, ensuring that each root captures the essence of its vibrant history. From the fertile soil to the first sprout, our commitment to quality is at the core of everything we do. The harvesting process is followed by a meticulous drying and curing technique that ensures the rich aroma, bold flavor, and health-boosting properties remain intact.                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box b2">
+                <div class="img-box">
+                  <img src="{% static 'images/cloves.png' %}" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Clove
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post Date:
+                      </h6>
+                      <h6>
+                        05-03-2025
+                      </h6>
+                    </div>
+                  </div>
+                  <p>
+                  our clove trees stand tall, bearing the spice known for its intense aroma, distinctive flavor, and remarkable versatility. Our clove farm thrives in the ideal conditions—sun-drenched days, cool nights, and fertile soil—that allow each tree to flourish. We use sustainable farming techniques, ensuring that the environment remains healthy and the soil nutrient-rich, supporting the natural growth cycle of the cloves. Once the cloves are handpicked, they undergo a natural drying process, carefully monitored to preserve their aromatic oils. This ensures that each clove maintains its intense flavor and fragrance, which is key to delivering an exceptional product.                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end blog section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <div class="heading_container">
+            <h2>
+              Our Mission
+            </h2>
+            <p>
+            "Our mission is to bring the purest, most flavorful spices from our farm to your table, nurturing the earth and honoring tradition every step of the way. We are dedicated to creating lasting connections through the power of nature’s finest ingredients, enriching lives and enhancing meals around the world."            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="client_container">
+      <div class="client_bg">
+        <img src="{% static 'images/gallery-bg.png' %}" alt="" />
+      </div>
+      <div class="container">
+        <div class="client_box">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box b1">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="client_content-box layout_padding">
+
+                        <div class="detail-box">
+                          <h4>
+                            Our Services
+                          </h4>
+                          <p>
+                            "Our mission goes beyond cultivating the finest spices on our own farm. We are committed to sourcing the most authentic, high-quality spices from every corner of India [not only limited to the spices that are listed in our website], ensuring that the richness of this diverse land is brought directly to your table. 
+                            In addition to our homegrown selection, we are proud to import the finest saffron from Iran, known for its unmatched quality and vibrant flavor. We supply this precious spice throughout India, ensuring that our customers receive only the best. Our reach is limitless—exporting our spices globally, making us your trusted partner for spice excellence, wherever you are in the world."                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box b2">
+                <div class="camera_img-box">
+                  <img src="{% static 'images/tradition.jpg' %}" alt="" style = "border: 5px solid white; border-radius: 25px;"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- info section -->
+
+  <section class="info_section ">
+    <div class="info_container layout_padding-top">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Contact Us
+          </h2>
+        </div>
+        <div class="info_main">
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="info_contact ">
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="{% static 'images/location.png' %}" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Kattappana, Kerala, India
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="{% static 'images/mail.png' %}" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      spicesatlas@gmail.com
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="{% static 'images/call.png' %}" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                        +91 9388148572 <br>
+                        +61 412180532
+
+
+                    </h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 col-lg-3">
+              <div class="info_link-box">
+
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="social_box">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <footer class="footer_section ">
+    <div class="container">
+
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.js' %}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="{% static 'js/custom.js' %}"></script>
+</body>
+
+</html>
