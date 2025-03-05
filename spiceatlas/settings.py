@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-csqannnxd6idpv%u*i#$6^q7h652p7*m2)(o@53sq6@7x@hn7o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['spices-atlas.onrender.com',]
 
 
 # Application definition
