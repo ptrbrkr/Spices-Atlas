@@ -1087,3 +1087,106 @@ a:focus {
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('spices-banner.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+/* General Section Styling */
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gallery Section */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Blog Section */
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blog article {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero {
+        font-size: 20px;
+        height: 200px;
+    }
+}
+/* Adjust alignment of allspices.png */
+.allspices {
+    margin-top: 20px; /* Push image down from the top border */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        font-size: 20px;
+        height: 200px;
+    }
+}
